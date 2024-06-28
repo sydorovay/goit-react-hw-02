@@ -1,0 +1,11 @@
+.options button {
+  margin-left: 20px;
+  padding: 10px 20px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  cursor: pointer ; 
+}
+
+.options button:hover {
+  background-color: #f0f0f0;
+}
