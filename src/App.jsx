@@ -3,7 +3,7 @@ import css from './App.module.css'
 import Description from './components/Description/Description'
 import Options from './components/Optoins/Options'
 import Feedback from './components/Feedback/Feedback'
-import Notification from './Notifiaction/Notification'
+import Notification from './components/Notifiaction/Notification'
 function App() {
   const [feedback, setFeedback] = useState(() => {
     const savedFeedback = localStorage.getItem('feedback');
